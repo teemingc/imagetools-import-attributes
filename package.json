@@ -1,0 +1,22 @@
+{
+	"name": "imagetools-import-attributes",
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"dev": "vite",
+		"build": "vite build",
+		"build:ssr": "vite build --ssr src/entry-server.ts --outDir dist-ssr",
+		"ssr": "node ssr-dev.mjs",
+		"check": "svelte-check --tsconfig ./tsconfig.json --tsgo"
+	},
+	"devDependencies": {
+		"@sveltejs/vite-plugin-svelte": "^7.3.1",
+		"@typescript/native": "npm:typescript@^7.1.0-beta",
+		"magic-string": "^1.4.5",
+		"svelte": "^5.57.3",
+		"svelte-check": "^4.7.8",
+		"typescript": "^6.0.3",
+		"vite": "^8.3.8",
+		"vite-imagetools": "^12.0.2"
+	}
+}
